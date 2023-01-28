@@ -31,8 +31,31 @@ Take note of the various variables and their data types. Write a brief summary i
 * Its data type
 * and example values you can assign them.
 
+1. Character:
+   1. Stores a single character of text
+   2. ex: e, 2, g, and (.
+
+2. String:
+   1. Stores multiple characters of text.
+   2. ex: "Hi, how are you doing?", or "1000 - 1200 = (-)200".
+
+3. Integer:
+   1. Stores an integer that can be used to perform calculations
+   2. ex: 5, 20, 2000000000, or -50
+
+4. Float/Double:
+   1. Stores decimal numbers. Float uses 32 bit components and double uses 64 bit components
+   2. ex: 11.25, 8.0, 0.5061, or 0.001
+
+5. Boolean:
+   1. Stores the value of true or false.
+   2. ex: True, or False
+
 Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
 * Hint: your IDE can help you discover these!
+
+1. char firstInitial = "H"; //"H" is a string value becuase it is contained by quotation marks, not apostrophes.
+2. int balance = 500.0; //500.0 is a double, not an integer value.
 
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
